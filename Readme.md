@@ -80,7 +80,7 @@ dataset = dataverse.load_dataset(
 )
 
 # Method 2: Download via URL
-dataset, dataverse = Dataverse.from_ds_url(
+dataset, dataverse = Dataverse.load_from_url(
     url="https://demo.dataverse.org/dataset.xhtml?persistentId=doi:10.70122/XX/XXXXX&version=DRAFT",
     api_token="MY_API_TOKEN"
 )
